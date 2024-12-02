@@ -34,7 +34,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
       - name: Run the test suite
@@ -53,7 +53,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
           enable-cache: true
@@ -80,7 +80,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
           enable-cache: true
@@ -114,7 +114,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
           enable-cache: true
@@ -237,7 +237,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
           enable-cache: true
