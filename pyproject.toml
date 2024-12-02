@@ -57,6 +57,14 @@ dependencies = [
     "typing-extensions>=4.12.2; python_full_version<'3.12'",
 ]
 
+urls.changelog = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source/releases"
+urls.discussions = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source/discussions"
+urls.documentation = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source"
+urls.download = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source/releases"
+urls.homepage = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source"
+urls.integration = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source/actions"
+urls.issues = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source/issues"
+urls.repository = "https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source"
 scripts.test-gh-linux-py310-test-open-source = "test_gh_linux_py310_test_open_source.cli.entrypoint:test_gh_linux_py310_test_open_source"
 
 [dependency-groups]

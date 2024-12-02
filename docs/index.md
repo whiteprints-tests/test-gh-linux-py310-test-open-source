@@ -19,5 +19,6 @@ Guide <guide>
 Command Line <usage>
 Reference <autoapi/index>
 Licensing <licensing_index>
+Releases <https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source/releases>
 Contributing <contributing_index>
 ```
