@@ -6,7 +6,9 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # 🛠️ Codebase Overview
 
-The project is organised as follow.
+The project is hosted on [https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source.git](https://github.com/whiteprints-tests/test-gh-linux-py310-test-open-source.git).
+
+It is organised as follow.
 
 ## Files and directories
 
