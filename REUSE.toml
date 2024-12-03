@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: © 2024 Romain Brault <mail@romainbrault.com>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+version = 1
+SPDX-PackageName = "test_gh_linux_py310_test_open_source"
+SPDX-PackageSupplier = "whiteprints-tests <mail@romainbrault.com>"
