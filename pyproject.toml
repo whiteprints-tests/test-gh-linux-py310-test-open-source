@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2024 Romain Brault <mail@romainbrault.com>
+# SPDX-FileCopyrightText: © 2024 Romain Brault <mail@romainbrault.com>
 #
 # SPDX-License-Identifier: MIT OR Apache-2.0
 
@@ -17,7 +17,6 @@ keywords = [
     "Python",
 ]
 license = "MIT OR Apache-2.0"
-
 license-files.paths = [
     "LICENSES/Apache-2.0.txt",
     "LICENSES/CC-BY-4.0.txt",
@@ -53,8 +52,12 @@ dynamic = [
 ]
 dependencies = [
     "distro>=1.9.0",
+    "python-dotenv>=1.0.1",
+    "rich-click>=1.8.5",
     "typing-extensions>=4.12.2; python_full_version<'3.12'",
 ]
+
+scripts.test-gh-linux-py310-test-open-source = "test_gh_linux_py310_test_open_source.cli.entrypoint:test_gh_linux_py310_test_open_source"
 
 [dependency-groups]
 dev = [
